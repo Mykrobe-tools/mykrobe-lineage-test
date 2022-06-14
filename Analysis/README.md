@@ -1,10 +1,8 @@
 # Mykrobe species/lineage test results
 
-+----------------------+-----------------+--------------------+--------+
 | file                 | mykrobe version | main panel version | panel  |
-+----------------------+-----------------+--------------------+--------+
+| :---                 | :---            | :---               | :---   |
 | `results.202010.tsv` | v0.11.0         | tb 20201014        | 202010 |
-+----------------------+-----------------+--------------------+--------+
 
 "main panel version" is the version you see in the "Species summary" section
 when running `mykrobe panels describe". eg (showing the TB row only, not other
@@ -23,7 +21,7 @@ was the default panel for the main panel download version 20201014.
 
 ## Notes
 
-*`results.202010.tsv`:* - this is using latest mykrobe (at the time of
+**`results.202010.tsv`:** - this is using latest mykrobe (at the time of
 writing) v0.11.0, and the latest TB panel. The samples used were the same
 as those used when lineage calling was updated in 2020 - details are in
 the mykrobe github issue https://github.com/Mykrobe-tools/mykrobe/issues/94.
