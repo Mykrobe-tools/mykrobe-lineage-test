@@ -1,0 +1,3 @@
+ncbi-genome-download
+pyfastaq
+requests
