@@ -100,7 +100,7 @@ def run_mykrobe(reads_files, json_out, panels_dir=None):
     command = f"mykrobe predict {seq_opt} --species tb --format json --output {json_out} --sample sample"
     if panels_dir is not None:
         panels_dir = os.path.abspath(panels_dir)
-        command += " --panels_dir {panels_dir}"
+        command += f" --panels_dir {panels_dir}"
     syscall(command, cwd=work_dir)
 
 
