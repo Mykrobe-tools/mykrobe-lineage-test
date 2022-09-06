@@ -3,7 +3,7 @@
 | file                   | mykrobe version | main panel version | panel  |
 | :---                   | :---            | :---               | :---   |
 | `results.202010.tsv`   | v0.11.0         | tb 20201014        | 202010 |
-| `results.20200705.tsv` | v0.12.1         | tb 20220705        | 202206 |
+| `results.20220705.tsv` | v0.12.1         | tb 20220705        | 202206 |
 
 "main panel version" is the version you see in the "Species summary" section
 when running `mykrobe panels describe". eg (showing the TB row only, not other
@@ -43,7 +43,7 @@ ERR228067   ena     Mycobacterium_tuberculosis  lineage4.4.1  Mycobacterium_tube
 ERR1199080  ena     Mycobacterium_tuberculosis  lineage4.6.1  Mycobacterium_tuberculosis  lineage4.6.1.1    False
 ```
 
-## `results.20200705.tsv`
+## `results.20220705.tsv`
 
 This is using mykrobe version 0.12.1, main panel 20220705 version, and its
 default panel 202206. Since making `results.202010.tsv`, calling bovis/BCG was
